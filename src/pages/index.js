@@ -4,6 +4,7 @@ import Header from "../modules/HomePage/components/Header";
 import NavBar from "../modules/HomePage/components/NavBar";
 import DoctorPicture from "../modules/HomePage/components/DoctorPicture";
 import AppointmentSection from "../modules/HomePage/components/AppointmentSection";
+import FindDoctor from "../modules/HomePage/components/FindDoctor";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <NavBar />
       <DoctorPicture />
       <AppointmentSection />
+      <FindDoctor />
     </Box>
   );
 }

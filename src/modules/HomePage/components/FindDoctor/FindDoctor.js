@@ -12,7 +12,7 @@ const FindDoctor = () => {
       alignItems="center"
       width="100%"
       height="600px"
-      marginTop="570px"
+      marginTop="529px"
     >
       <Flex justifyContent="space-between" height="570px" width="590px">
         <Flex flexDirection="column" justifyContent="space-between">

@@ -31,7 +31,6 @@ const AppointmentCard = () => {
         <Flex
           height="41px"
           width="180px"
-          justifyContent="center"
           alignItems="center"
         >
           <Text

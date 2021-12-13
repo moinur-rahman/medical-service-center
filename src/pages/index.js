@@ -5,6 +5,7 @@ import NavBar from "../modules/HomePage/components/NavBar";
 import DoctorPicture from "../modules/HomePage/components/DoctorPicture";
 import AppointmentSection from "../modules/HomePage/components/AppointmentSection";
 import FindDoctor from "../modules/HomePage/components/FindDoctor";
+import ProgressBar from "../modules/HomePage/components/ProgressBar";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <DoctorPicture />
       <AppointmentSection />
       <FindDoctor />
+      <ProgressBar />
     </Box>
   );
 }
